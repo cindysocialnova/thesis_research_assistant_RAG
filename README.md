@@ -49,8 +49,27 @@ Do not rely on Boolean logic for query refinement. Testing indicates that adding
 4. Production Cleanliness Recommendations
 For a public-facing deployment, it is highly recommended to strip out the Reasoning Chain-of-Thought (CoT) output and the raw Cosine Similarity Scores from the final user view. These metrics are vital for model analysts calibrating the pipeline but clutter the user experience.
 
-There is fall back code in case keywords did not render results. 
+There is fall back code in case keywords did not render results so to get a better picture of performance. You can add code that print out whether the cleaned keywords were used.  
+if not live_papers:
+        # Secondary attempt: Use analyzed thesis if the LLM's keywords were too restrictive
+        live_papers = fetch_real_arxiv_papers(search_thesis_for_query)
+        if not live_papers:
+            return f" Strategy: {reasoning_part}", f" No matches found for: {api_ready_query}", "Aborted.", f"Sentiment: {sentiment}, Stance: {stance}"
+
+
 
 
  
-To further test the LLM, you can add a sentiment model to compare with the LLM's sentiment results, and add code that prints out whether the cleaned keywords were used.    
+To further test the LLM, you can add a sentiment model to compare with the LLM's sentiment results. 
+<img width="604" height="134" alt="image" src="https://github.com/user-attachments/assets/a4fd9de9-bee9-4273-a1ab-794355d1363e" />
+
+
+
+You can also  add Export Feature to CVS.  
+<img width="678" height="74" alt="image" src="https://github.com/user-attachments/assets/a32dc41f-1bf3-4b41-957b-ce0be0915342" />
+
+
+Happy Coding!!!!!
+
+
+ 
