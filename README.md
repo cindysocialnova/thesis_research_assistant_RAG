@@ -48,4 +48,9 @@ The underlying LLM utilizes its own internal logic during the query expansion ph
 Do not rely on Boolean logic for query refinement. Testing indicates that adding explicit AND or OR operators to the search strings does not improve the retrieval performance or precision of the arXiv API in this architecture.
 4. Production Cleanliness Recommendations
 For a public-facing deployment, it is highly recommended to strip out the Reasoning Chain-of-Thought (CoT) output and the raw Cosine Similarity Scores from the final user view. These metrics are vital for model analysts calibrating the pipeline but clutter the user experience.
+
+There is fall back code in case keywords did not render results. 
+
+
  
+To further test the LLM, you can add a sentiment model to compare with the LLM's sentiment results, and add code that prints out whether the cleaned keywords were used.    
