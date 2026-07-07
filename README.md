@@ -14,7 +14,7 @@ Features
 Stance & Sentiment Analysis: Evaluates the user's thesis to determine if it is framed positively, negatively, or neutrally, and checks whether the stance is to "Support" or "Disprove".
 
 
-<img width="1038" height="248" alt="image" src="https://github.com/user-attachments/assets/c5dbc4aa-5bec-47e5-a72f-1210e7d33cf6" />
+<img width="1001" height="263" alt="image" src="https://github.com/user-attachments/assets/7a60260d-ef74-4c1b-85a3-e3314a1c3519" />
 
 
 
@@ -24,20 +24,19 @@ Smart Query Reformulation: Automatically strips conversational fillers and extra
 
 Semantic Search & Reranking: Computes text embeddings using BAAI/bge-large-en-v1.5 to calculate cosine similarity scores, ensuring the top  most contextually relevant papers are selected.
 
-<img width="483" height="113" alt="image" src="https://github.com/user-attachments/assets/34ee5d3f-1405-4ba2-b69d-7ef8ea6ec271" />
+ <img width="464" height="259" alt="image" src="https://github.com/user-attachments/assets/dfe9a91e-f8b5-455c-ad3a-3267280c101b" />
 
 
 Automated Critique Generation: An LLM reviews the retrieved papers to deliver a final verdict on whether the literature generally supports or contradicts the original thesis.
 
-<img width="451" height="114" alt="image" src="https://github.com/user-attachments/assets/3643e726-d91a-4836-8dc9-13ef4cbc68cd" />
+ <img width="540" height="332" alt="image" src="https://github.com/user-attachments/assets/7153968b-58d1-4a4d-aada-2f3df5f7f3b7" />
 
 
 Consine Scores 
 
-<img width="456" height="84" alt="image" src="https://github.com/user-attachments/assets/7e2dee9f-c49f-4250-81e2-948ab5997ce0" />
+<img width="484" height="121" alt="image" src="https://github.com/user-attachments/assets/42040860-835e-4c2c-ad69-d23ffacb789c" />
 
 
- 
 
  Key Technical Notes & Insights
 If you are experimenting with or altering this RAG pipeline, please keep the following system constraints and behavioral notes in mind:
