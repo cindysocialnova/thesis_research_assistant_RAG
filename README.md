@@ -69,6 +69,20 @@ You can also  add Export Feature to CVS.
 <img width="678" height="74" alt="image" src="https://github.com/user-attachments/assets/a32dc41f-1bf3-4b41-957b-ce0be0915342" />
 
 
+
+
+
+How much energy is actually being used? Currently, the only feedback from a black-box model is token usage, which you can try to compute against CPU and GPU consumption. While this serves as a great social hedge, in reality, the model doesn't show the true environmental impact. The only way to truly know is to measure how energy is consumed via analogous methods. It really requires a separate supply of water and energy while actively managing its own waste. Setting this within an ecosystem without disrupting the natural cycle requires a very different kind of business setup, but it can be done and can function effectively. 
+
+This setup seems to be using less energy. 
+
+
+Solution  
+
+Looking at my results, I can see that the best outcomes come from deterministic code; the summary section acts as an extra layer. The best approach is to either teach a person how to break down a paper or to provide extra metadata specifically designed for search, such as an abstract tailored for search engines.  
+
+
+
 Happy Coding!!!!!
 
 
