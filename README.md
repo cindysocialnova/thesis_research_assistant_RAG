@@ -7,7 +7,7 @@ Current Setting
             temperature=0.3,  
             max_tokens=1024,
 
-This application is an advanced Retrieval-Augmented Generation (RAG) tool designed to validate or critique academic thesis statements. By fetching live papers from the arXiv API, the agent analyzes the alignment, sentiment, and stance of academic literature against a user's initial thesis—even accounting for whether a thesis is framed to be supported or disproven.
+This application is an advanced Retrieval-Augmented Generation (RAG) tool designed to validate or critique academic thesis statements. By fetching live papers from the arXiv API, the agent analyzes the alignment, sentiment, and stance of academic literature against a user's initial thesis. 
 
 
 Features
